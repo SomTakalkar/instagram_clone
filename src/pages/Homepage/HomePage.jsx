@@ -11,7 +11,7 @@ export const HomePage = () => {
           <FeedPosts/>
         
         </Box>
-        <Box flex={3} mr={20} display={{ base: "none", lg: "block" }} maxW={"300px"} border={"1px solid red"}>
+        <Box flex={3} mr={20} display={{ base: "none", lg: "block" }} maxW={"300px"} >
          <SuggestedUsers/> 
         </Box>
       </Flex>
