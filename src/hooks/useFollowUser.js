@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useAuthStore from "../store/authStore";
 import useUserProfileStore from "../store/userProfileStore";
 import useShowToast from "./useShowToast";
-import { firestore } from "../firebase/firebase";
+import { firestore } from "../Firebase/firebase";
 import { arrayRemove, arrayUnion, doc, updateDoc } from "firebase/firestore";
 
 const useFollowUser = (userId) => {
