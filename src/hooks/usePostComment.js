@@ -2,7 +2,7 @@ import { useState } from "react";
 import useShowToast from "./useShowToast";
 import useAuthStore from "../store/authStore";
 import { arrayUnion, doc, updateDoc } from "firebase/firestore";
-import { firestore } from "../firebase/firebase";
+import { firestore } from "../Firebase/firebase";
 import usePostStore from "../store/postStore";
 
 const usePostComment = () => {

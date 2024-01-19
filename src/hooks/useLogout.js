@@ -1,5 +1,5 @@
 import { useSignOut } from "react-firebase-hooks/auth";
-import { auth } from "../firebase/firebase";
+import { auth } from "../Firebase/firebase";
 import useShowToast from "./useShowToast";
 import useAuthStore from "../store/authStore";
 
