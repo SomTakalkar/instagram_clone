@@ -1,9 +1,9 @@
+import { auth } from "./Firebase/firebase";
 import { Navigate, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/Homepage/HomePage";
 import AuthPage from "./pages/AuthPage/AuthPage";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { auth } from "./firebase/firebase";
 import PageLayout from "./Layout/PageLayout/PageLayout";
 
 function App() {
