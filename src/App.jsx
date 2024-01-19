@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
+import HomePage from "./pages/Homepage/HomePage";
 import AuthPage from "./pages/AuthPage/AuthPage";
 import ProfilePage from "./pages/ProfilePage/ProfilePage";
 import { useAuthState } from "react-firebase-hooks/auth";
