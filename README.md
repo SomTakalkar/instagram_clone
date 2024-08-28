@@ -1,4 +1,4 @@
-#Instagram Clone
+# Instagram Clone
 This project here is to show my skills in React.js, vite.js, Firebase
 
 
